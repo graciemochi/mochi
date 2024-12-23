@@ -2,23 +2,24 @@ document.addEventListener("DOMContentLoaded", () => {
     const numbersContainer = document.getElementById('numbers');
     const messageContainer = document.getElementById('message');
 
-    // Function to generate numbers from 1 to 100
+    // Function to generate numbers from 1 to 100 with images
     for (let i = 1; i <= 100; i++) {
-        const numberElement = document.createElement('div');
-        numberElement.classList.add('number');
-        numberElement.textContent = i;
-
-        // Event listener for click event on each number
-        numberElement.addEventListener('click', () => {
+        const imageElement = document.createElement('img');
+        imageElement.classList.add('number-image');
+        imageElement.src = `images/${i}.jpg`;  // Assumes images are named 1.jpg, 2.jpg, ..., 100.jpg
+        imageElement.alt = `Number ${i}`;
+        
+        // Event listener for click event on each image
+        imageElement.addEventListener('click', () => {
             showMessage(i);
         });
 
-        numbersContainer.appendChild(numberElement);
+        numbersContainer.appendChild(imageElement);
     }
 
-    // Function to display custom message
+    // Function to display a custom message when an image is clicked
     function showMessage(number) {
-        let message = `You clicked on number ${number}.`;
+        let message = `You clicked on the image for number ${number}.`;
 
         // Add a custom message for special numbers
         if (number === 7) {
