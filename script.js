@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const messageContainer = document.getElementById('message');
 
     // Function to generate numbers from 1 to 100 with images
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= 30; i++) {
         const imageElement = document.createElement('img');
         imageElement.classList.add('number-image');
         imageElement.src = `images/${i}.jpeg`;  // Assumes images are named 1.jpg, 2.jpg, ..., 100.jpg
