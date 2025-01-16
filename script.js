@@ -23,15 +23,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Add a custom message for special numbers
         if (number === 1) {
-            message = "I love you because you are very smart and intelligent.";
+            message = "I love you because you are very smart and intelligent in so many ways.";
         } else if (number === 2) {
             message = "I love you because you are the most beautiful person in the world both inside and outside.";
         } else if (number === 3) {
-            message = "I love that your eyes can tell me things before you can even speak.";
+            message = "I love that your eyes can speak to me even before you speak.";
         } else if (number === 4) {
-            message = "I love your lips (and your ass), they are out of this world.";
+            message = "I love your lips (and your ass and your whole body), they are out of this world.";
         } else if (number === 5) {
-            message = "I love when you call me with cute names, pesciolino, bebe and all the other names.";
+            message = "I love when you call me with cute names or curse me.";
         } else if (number === 6) {
             message = "I love that I feel loved by you very intimately and deeply.";
         } else if (number === 7) {
@@ -47,9 +47,9 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (number === 12) {
             message = "I love you because you require me to make me understand myself and my emotions better for you and me.";
         } else if (number === 13) {
-            message = "I love you because everytime after we have a little fight, I feel more closer to you than before.";
+            message = "I love you because everytime we have a little fight, I feel more closer to you than before.";
         } else if (number === 14) {
-            message = "I love you because of your love and devotion to scouts.";
+            message = "I love you because of your love and devotion to the scouts.";
         } else if (number === 15) {
             message = "I love you because I am scared of the thought of losing you.";
         } else if (number === 16) {
@@ -61,27 +61,27 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (number === 19) {
             message = "I love you because the more I know you the more I love you.";
         } else if (number === 20) {
-            message = "I love you because everytime I meet you i feel again why I love you so much.";
+            message = "I love you because everytime I meet you i get the reminder of why I love you so much.";
         } else if (number === 21) {
-            message = "I love each and every part of your body and all your imperfect perfections.";
+            message = "I love each and every part of your imperfect perfections.";
         } else if (number === 22) {
             message = " I love you because of all the craziness and positivity inside of you.";
         } else if (number === 23) {
             message = "I love you because you make me laugh with your stupid jokes.";
         } else if (number === 24) {
-            message = "I love you because your smile makes my heart warm.";
+            message = "I love you because your smile makes my heart melt.";
         } else if (number === 25) {
             message = "I love you because you are the person that I want to go to at the end of my day, end of the month and end of the year.";
         } else if (number === 26) {
             message = "I love you because you wait for me to come back home to eat together.";
         } else if (number === 27) {
-            message = "I love you because you saw all the good things (atleast 100 reasons😉) in me and love me.";
+            message = "I love you because you saw all the good things (atleast 100 ) in me and love me.";
         } else if (number === 28) {
             message = "I love you because you remind me of all the good in the world.";
         } else if (number === 29) {
             message = "I love you because i can imagine muself listening to your stories all my life.";
         } else if (number === 30) {
-            message = " I love you beacuse i want to spend more and more time (my lifetime) with you.";
+            message = "I love you beacuse i want to spend more and more time (my lifetime) with you.";
         }
 
         messageContainer.textContent = message;
